@@ -25,7 +25,7 @@ SECRET_KEY = '1lxk3a6m+6c-@mr5i3k6(4sv73-f@s=o*j2@#^)e^^i-px4!kj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'starley.lobo.pythonanywhere.com']
 
 
 # Application definition
