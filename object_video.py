@@ -29,6 +29,8 @@ while True:
         (x, y), (w, h), angle = rect
 
         # Get angle
+        print(w)
+        print(h)
         if w < h:
             angle = 90 - angle
         else:
