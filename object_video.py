@@ -33,7 +33,7 @@ while True:
             angle = 90 - angle
         else:
             angle = 180 - angle
-        print(angle)
+        print("Angulo "+angle)
 
         # Display rectangle
         box = cv2.boxPoints(rect)
